@@ -1,4 +1,4 @@
-/* 
+/*
 gcc -Wall -O2 -ofunciones2 funciones2.c
 */
 
@@ -52,7 +52,7 @@ int main(void)
 		printf("14- Calcular la suma de una serie\n");
 		printf("0- salir\n");
 		scanf("%d", &opcion);
-		
+
 		switch (opcion){
 			case 1:
 				printf("introuzca la base del cuadrado:\n");
@@ -64,12 +64,12 @@ int main(void)
 			case 2:
 				printf("introuzca el radio de la circunferencia:\n");
 				scanf("%lf",&doble1);
-				printf("el area del circulo es %.2lf\n\n\n", area_circulo(doble1));		
+				printf("el area del circulo es %.2lf\n\n\n", area_circulo(doble1));
 				break;
 			case 3:
 				printf("introuzca el radio:\n");
 				scanf("%lf",&doble1);
-				printf("La longitud de la circunferencia es: %lf\n\n\n",longitud_circunferencia(doble1) );		
+				printf("La longitud de la circunferencia es: %lf\n\n\n",longitud_circunferencia(doble1) );
 				break;
 			case 4:
 				printf("introuzca la base:\n");
@@ -201,21 +201,19 @@ int absoluto (int absoluto){
 double euro2dolar(double euro){
 /**1.11*/
 	return euro * CAMBIO;
-} 
+}
 
 double dolar2euro(double dolar){
 /**1.11*/
 	return dolar / CAMBIO;
-} 
+}
 
 double mypow(double base, int exponente){
-	int basefija, i=0;
-	basefija = base;
-	while(i<exponente){
-		base = base * basefija;
-		i++;
-	}
-	return base;
+	if (exponente == 1)
+	{
+		return base;
+	}else
+	return base * mypow(base, (exponente-1));
 }
 
 /*fuerza atraccion entre 2 masas*/
