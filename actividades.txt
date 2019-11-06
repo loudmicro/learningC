@@ -1,0 +1,19 @@
+5.8-
+	a- 7.5
+	b- 7
+	c- 0
+	d- 0
+	e- 6.4
+	f- -5
+	g- -14
+
+
+5.12
+	a- significa generar numeros al azar, sin saber cual es el resultado
+	b- porque genera numeros aleatorios definidos dentro de rangos, etc.
+	c- srand genera una semilla para obtener resultados diferentes con cada ejecución
+	d- para desplazar los resultados, si queremos numeros aleatorios del 10-20 sería rand() % 6 + 11;
+	e- para conocer diferentes resultados de antemano, sabiendo el output que puede tener una situacion 
+	   podemos preveer una solucion a un problema antes de que se presente.
+
+	   
