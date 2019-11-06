@@ -1,5 +1,6 @@
 /*
 gcc -O2 -Wall -o516 516.c
+v0.2
 */
 
 #include <stdio.h>
