@@ -9,16 +9,20 @@ int potenciaInt (int base, int exponente);
 
 int main(void)
 {
-	float base,exponente;
+	int base,exponente;
 	printf("Introduce la base \n");
 	scanf("%d",&base);
 	printf("Introduce el exponente \n");
-	scanf("%d",&ladoB);
-	printf("el resultado de %d^%d es: %d" potenciaInt(base,exponente));
+	scanf("%d",&exponente);
+	printf("el resultado de %d elevado a %d  es: %d",base, exponente, potenciaInt(base,exponente));
 	return 0;
 }
 int potenciaInt (int base, int exponente){
-	int num
+	int num = 1, i;
 
+	for (i = 1; i <= exponente; i++) {
+		num *= base;
+	}
+	return num;
 
 }
