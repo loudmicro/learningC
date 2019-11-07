@@ -230,5 +230,5 @@ int suma_serie (int n1, int n2){
 	 {
 	 	resul = resul + n1;
 	 }
-	 return resul;
+	 return -1;
 }
