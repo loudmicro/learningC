@@ -199,7 +199,7 @@ int sumaColumna(int m[][MATRIZY], int x, int y, int columna)
 
 void pasoColumnaMatriz2Array(int m[][MATRIZY], int x, int y, int n[], int length, int columna)
 {
-    int i, j, aux = 0;
+    int i, j;
 
     for (i = 0; i < x; i++)
     {
