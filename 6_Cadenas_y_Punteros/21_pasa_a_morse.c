@@ -1,13 +1,21 @@
 /*
+	Juan Victor 
+*/
+
+/*
 un array para las letras
 un array para los numeros
 */
 /*
 Lo mas largo del codigo morse son 5 puntos
+
 creo que voy a hacer una cadena con todos los caracteres posibles e ir
 comparando cada posicion de la cadena con cada posicion de la cadena original, y si coinciden lo imprima
+
 abcdefghijklmnopqrstuvwxyz1234567890
+
 gcc -Wall -o839 839.c
+
 */
 
 #include <stdio.h>

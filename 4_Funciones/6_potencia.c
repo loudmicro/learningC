@@ -1,6 +1,5 @@
 /*
-gcc -O2 -Wall -o516 516.c
-v0.2
+	Juan Victor 
 */
 
 #include <stdio.h>
@@ -17,6 +16,7 @@ int main(void)
 	printf("el resultado de %d elevado a %d  es: %d",base, exponente, potenciaInt(base,exponente));
 	return 0;
 }
+/*Funcion que calcula la potencia de forma iterativa*/
 int potenciaInt (int base, int exponente){
 	int num = 1, i;
 

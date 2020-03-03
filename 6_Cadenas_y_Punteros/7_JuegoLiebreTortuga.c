@@ -1,10 +1,11 @@
 /*
-gcc -Wall -O2 -o717 717.c
+	Juan Victor 
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <unistd.h>
 
 
 void limpiar(void);

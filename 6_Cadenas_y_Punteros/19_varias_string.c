@@ -1,22 +1,5 @@
 /*
-a
-for (letra = 'A'; letra <= 'Z'; letra++){
-}
-*/
-
-/*
-b
-palabras de una sola letra
-hacemos un strtok para las palabras, y le pasamos un strlen,
-si tiene longitud 1 las contamos, con longitud 2, las contamos, etc.
-*/
-
-/*
-c
-cuantas ocurrencias tiene una palabra en el texto
-*/
-/*
-gcc -Wall -O0 -o834d 834d.c
+	Juan Victor 
 */
 #include <stdio.h>
 #include <stdlib.h>
